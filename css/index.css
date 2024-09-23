@@ -1,0 +1,175 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: normal;
+    background-color: rgb(190, 105, 8);
+    color: rgb(0, 0, 0);
+}
+
+#pantalla {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 630px;
+    min-width: 450px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    background-color: rgb(252, 191, 122);
+}
+
+.texto_izquierda {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color: black;
+    text-align: left; /* Cambia a left para alinear a la izquierda */
+    padding-right: 700px;
+    padding-top: 0px;
+}
+.img{
+    position: absolute; /* Usar posición absoluta para mover la imagen */
+    top: 118px; /* Ajusta este valor para mover la imagen hacia arriba */
+    left: 52%; /* Centra la imagen horizontalmente */
+    transform: translateX(45%); /* Ajusta para centrar completamente */
+}
+.grid-container{
+    display: grid; /* Usar grid para alineación */
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
+    gap: 15px; /* Espaciado entre las imágenes */
+    padding: 15px; /* Espacio alrededor del contenedor */
+    margin-left: 105px;
+}
+ul{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    text-align: center;
+    background-color:  rgb(252, 191, 122);
+    display: inline;
+    margin-left: 0px;
+    position: absolute;
+    margin-top: 600px;
+}
+#contenido img{
+    margin-left: 45px;
+}
+#cuadrado_afuera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    margin: 0%;
+    padding: 0%;
+    min-width: 99vw;
+    min-height: 97vh;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/Fondo.avif);
+    background-position: center;
+    background-size: cover;
+}
+#cuadrado_adentro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-width: 200px;
+    max-width: 900px;
+    width: 90%;
+    background-color: rgb(58, 28, 4);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: 0px 0px 5px 5px rgb(223, 70, 0);
+    -moz-box-shadow: 0px 0px 5px 5px rgb(15, 201, 30);
+    box-shadow: 0px 0px 5px 5px rgbS(223, 70, 0);
+    padding: 30px;
+    box-sizing: border-box;
+}
+#login{
+    width: 100%;
+    min-width: 400px;
+    max-width: 400px;
+    padding: 30px 30px 50px 30px;
+    background-color: rgb(0, 0, 0);
+    -webkit-box-shadow: 0px 0px 5px 5px rgb(223, 70, 0);
+    -moz-box-shadow: 0px 0px 5px 5px rgb(15, 201, 30);
+    border-radius: 3px 3px 3px 3px;
+    -moz-morder-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    box-sizing: border-box;
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+#login label{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    color: red;
+    margin-top: 15px;
+}
+#login input{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    color: rgb(0, 0, 0);
+    height: 40%;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+#login input::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color: black;
+}
+#login button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    display: block;
+    color: rgb(0, 0, 0);
+    background-color:  rgb(223, 70, 0);
+    border-radius: 3px 3px 3px 3px;
+    border: none;
+    margin-top: 10px; 
+    width: 100%;
+    height: 40px;
+}
+#login button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.titulo{
+    color: rgb(223, 70, 0);
+    font-size: 400%;
+}
+hr{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.pie-form{
+    font-size: 95%;
+    text-align: center;
+    margin-top: 15px;
+}
+.pie-form a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 95%;
+    display: block;
+    color: rgb(223, 70, 0);
+}
+.pie-form a:hover{
+    color: blue;
+}
